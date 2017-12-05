@@ -1,2 +1,5 @@
 **/target/
 **/__pycache__/
+Project_euler.egg-info/
+.cache/
+.eggs/

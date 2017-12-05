@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+Project_Euler/__init__.py
+Project_Euler/euler.py
+Project_Euler/euler0003.py
+Project_Euler/euler0005.py
+Project_Euler.egg-info/PKG-INFO
+Project_Euler.egg-info/SOURCES.txt
+Project_Euler.egg-info/dependency_links.txt
+Project_Euler.egg-info/top_level.txt

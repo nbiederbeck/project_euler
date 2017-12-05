@@ -4,7 +4,6 @@ What is the largest prime factor of the number 600851475143 ?
 '''
 # coding: utf-8
 from numpy import array, append, arange, unique
-from telegramupdater import message
 
 
 NUMBER_OF_INTEREST = 600851475143
@@ -65,20 +64,17 @@ def primefactors(number):
                 break
         else:
             i += 1
-    return unique(primefactors), primefactors
+    return unique(primefactors)
 
 
 def main():
     '''Starts the program.'''
-    primes, _ = primefactors(NUMBER_TEST)
-    if primes.all() == SOLUTION_TEST.all():
-        print('Program is correct, calculating solution...')
-        solution = int(primefactors(NUMBER_OF_INTEREST)[0][-1])
-        answer = 'The correct solution is: {solution}'.format(solution=solution)
-        print(answer)
-        message(answer)
-    else:
-        print('Correct the program, the solution is false!.')
+    solution = primefactors(NUMBER_OF_INTEREST)
+    answer = 'Prime factors of {number} are: {solution}'.format(
+            number=NUMBER_OF_INTEREST,
+            solution=solution,
+            )
+    print(answer)
 
 
 if __name__ == '__main__':
