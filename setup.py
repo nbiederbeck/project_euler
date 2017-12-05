@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='projecteuler',
+    name='project_euler',
     version='0.0.1',
     author='Noah Biederbeck',
     author_email='noah.biederbeck@tu-dortmund.de',
