@@ -1,7 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Project_Euler',
+    name='projecteuler',
+    version='0.0.1',
     author='Noah Biederbeck',
     author_email='noah.biederbeck@tu-dortmund.de',
     description='Solutions for Project Euler',
